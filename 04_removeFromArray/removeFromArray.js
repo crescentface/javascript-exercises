@@ -1,5 +1,7 @@
-const removeFromArray = function(array, removeValue) {
-    const previousSecondElementOfTheArray = array.splice(removeValue, 1);
+const removeFromArray = function(array, remove) {
+    remove = 1;
+    which = 3;
+    const removeFrom = array.splice(remove, which);
     return array;
 };
 
